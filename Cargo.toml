@@ -1,0 +1,11 @@
+[package]
+name = "inspector_jhonny"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gxhash = "3.4.1"
+highway = "1.2.0"
+serde = { version = "1.0.211", features = ["derive"] }
+serde_yaml = "0.9.34"
+walkdir = "2.5.0"
